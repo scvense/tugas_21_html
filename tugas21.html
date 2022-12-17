@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Select, Option, Optgroup element</title>
+    <link rel="icon" href="" type="image/x-icon" />
+  </head>
+  <body>
+    <h1>Rumah Makan Ibu Jamal</h1>
+    <p>Silahkan pilih menu Anda di bawah ini!</p>
+    <form action="">
+      <p>
+        Makanan :
+        <select name="pesanan">
+          <optgroup label="makanan">
+            <option value="soto kudus">Soto Kudus</option>
+            <option value="tude bakar">Tude Bakar</option>
+            <option value="tempoyak ikan" selected>Tempoyak ikan</option>
+            <option value="asinan betawi">Asinan Betawi</option>
+            <option value="kerak telor">Kerak Telor</option>
+            <option value="nasi padang">Nasi Padang</option>
+          </optgroup>
+        </select>
+      </p>
+      <p>
+        Minuman :
+        <select name="pesanan" multiple>
+          <optgroup>
+            <option value="es kopi">es kopi</option>
+            <option value="lemon tea">lemon tea</option>
+            <option value="banana milk">banana milk</option>
+            <option value="es jeruk">es jeruk</option>
+          </optgroup>
+        </select>
+      </p>
+    </form>
+  </body>
+</html>
